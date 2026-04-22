@@ -1,0 +1,4 @@
+# RaspiAlarm – runtime dependencies
+# RPi.GPIO is only available on Raspberry Pi hardware.
+# The package gracefully falls back to a software stub on other platforms.
+RPi.GPIO>=0.7.1

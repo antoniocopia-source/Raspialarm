@@ -1,0 +1,19 @@
+{
+    "_comment": "RaspiAlarm configuration – copy/edit as needed",
+
+    "log_level": "INFO",
+    "log_file": "alarm_events.log",
+
+    "pir_pin": 17,
+    "buzzer_pin": 18,
+    "poll_interval": 0.1,
+
+    "arm_time": "22:00",
+    "disarm_time": "07:00",
+
+    "smtp_host": "",
+    "smtp_port": 465,
+    "smtp_user": "",
+    "smtp_password": "",
+    "recipient_email": ""
+}
